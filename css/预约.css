@@ -1,0 +1,61 @@
+li{list-style: none;}
+/*菜单轮播*/
+.navigation-big{width: 100%;margin: auto; height: 347px; background: url(../img/预约/asxs.png)no-repeat;background-size: 100% 100%;}
+.navigation-img{width: 100%;height: 60px; margin: auto; background: url(../img/wwfc.png) no-repeat;background-size: 100% 100%;}
+.navigation-img>ul{width: 1015px;margin: auto;list-style:none ; display: flex;justify-content: space-between;}
+.navigation-img>ul>li>a{text-decoration: none;color: #2293d7;font-size: 14px;line-height: 40px;font-weight:bold;}
+.navigation-img>ul>li:nth-child(8) a{color:#f29000 ;}
+.navigation-img>ul>li>a:hover{color:#f29000 ;}
+/*内容*/
+.main{width: 100%;height: 100%;background: #fefefe;}
+.main>div{border: solid 1px #cbcbcb ;border-top: solid 0px #cbcbcb ;border-radius:0px 0px 30px 30px ; width: 1015px;margin: auto;padding-bottom: 350px;margin-bottom: 80px;}
+.main>div>ul:nth-child(1){width: 1015px;margin: auto;}
+/*顶部*/
+.main-1b>ul{display: flex;justify-content:space-between;}
+.main-1b>ul>li>div{float: left;}
+.main-1b>ul>li>div>span{color: #149add;font-size: 47px;line-height: 74px;margin-left:20px ;}
+.main-1b>ul>li>div>h4{color: #149add;margin-top: 16px;margin-left: 15px;font-size: 18px;}
+.main-1b>ul>li>div>p{color: #149add;font-size: 13px;margin-top: 3px;margin-left: 15px;}
+.main-1b>ul>li:nth-child(2) {line-height: 76px;color: #333;font-size: 14px;}
+.main-1b>ul>li:nth-child(2) a{color: #333;text-decoration: none;}
+.main-1b>ul>li:nth-child(2) a:nth-child(4){margin-right:25px ;}
+.main-1b>ul>li>a:hover{color: #F29000;}
+.main-b{width: 1015px;margin: auto;}
+.main-b>li:nth-child(1){text-align: center;margin-top:30px ;color: #008BD6;font-size: 20px;}
+.main-b>li:nth-child(2){text-align: center;margin-top:10px ;font-size: 12px;}
+.main-b>li:nth-child(3) div{width: 950px;border: dashed 1px #cbcbcb;margin: auto;margin-top: 15px;}
+
+.main-c{width: 1015px;display: flex;justify-content: space-between;margin: auto;padding-bottom: 35px;margin-top: 30px;}
+.main-c>li{margin-left: 15px;}
+
+.main-2c{width:550px ;}
+.main-2c>ul{display: flex;justify-content: space-between;}
+.main-2c>ul>li:nth-child(2){margin-right: 20px;}
+.main-2c>ul>li>div>div{border-radius: 20px;border:dashed 1px #e2e2e2 ;width:220px ;float: left;}
+.main-2c>ul>li>div>div>input:nth-child(1){width: 80px;line-height: 30px; background: #2fa2dc;color: #fff ;font-size: 12px;border:solid 0px ;border-radius:20px ;outline: none;}
+.main-2c>ul>li>div>div>input:nth-child(2){width: 110px;height: 30px; background: ;font-size: 12px;border:solid 0px ;margin-left: 0px;background: transparent;outline: none;}
+.main-2c>ul>li>div>span{color: crimson;margin-left: 10px;}
+
+.main-2c-2ul{margin-top: 30px;}
+.main-2c-2ul>li>p{color: #2fa2dc;font-size: 12px;line-height: 20px;}
+.main-2c-2ul>li>select{width:65px ;height:25px ;border: solid 1px #E2E2E2;}
+
+.main-2c-2ul>li:nth-child(2){margin-right: 20px;margin-top: 10px;}
+.main-2c-2ul>li>div>div{border-radius: 20px;border:dashed 1px #e2e2e2 ;width:220px ;float: left;}
+.main-2c-2ul>li>div>div>input:nth-child(1){width: 80px;line-height: 30px; background: #2fa2dc;color: #fff ;font-size: 12px;border:solid 0px ;border-radius:20px ;outline: none;}
+.main-2c-2ul>li>div>div>select:nth-child(2){width: 110px;height: 30px; background: ;font-size: 12px;border:solid 0px ;margin-left: 0px;background: transparent;outline: none;}
+>li>div>span{color: crimson;margin-left: 10px;}
+
+.main-2c-3ul>li>div{width: 530px;height: 100px;border: solid 1px #e2e2e2;border-radius:20px ;margin-top: 20px;}
+.main-2c-3ul>li>div>textarea{width: 510px;height: 90px;outline: none;border: solid 0px #e2e2e2;margin-top: 5px;margin-left: 5px;}
+.main-2c-4ul{margin-top: 18px;}
+.main-2c-4ul>li{position: relative;}
+.main-2c-4ul>li>input:nth-child(1){color: #fff; width:70px ;line-height: 30px;border-radius:20px 0px 0px 20px ;border: solid 0px ;background: #2fa2dc;position: absolute;right:70px;outline: none;}
+.main-2c-4ul>li>input:nth-child(2){color: #fff; width:70px ;line-height: 30px;border-radius:0px 20px 20px 0px ;border: solid 0px ;background: #f39901;outline: none;}
+
+.main-2c>a{float: right;margin-top: 40px;margin-right: 20px;color:#333 ;font-size: 14px;}
+
+
+
+
+

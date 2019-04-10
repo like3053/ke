@@ -1,0 +1,75 @@
+/*菜单轮播*/
+.navigation-big{width: 100%;margin: auto; height: 347px; background: url(../img/新闻动态/safd.png)no-repeat;background-size: 100% 100%;}
+.navigation-img{width: 100%;height: 60px; margin: auto; background: url(../img/wwfc.png) no-repeat;background-size: 100% 100%;}
+.navigation-img>ul{width: 1015px;margin: auto;list-style:none ; display: flex;justify-content: space-between;}
+.navigation-img>ul>li>a{text-decoration: none;color: #2293d7;font-size: 14px;line-height: 40px;font-weight:bold;}
+.navigation-img>ul>li:nth-child(1) a{color:#f29000 ;}
+.navigation-img>ul>li>a:hover{color:#f29000 ;}
+/*内容*/
+.main{width: 100%;height: 100%;background: #F9F9F9;padding-bottom: 30px;}
+.main>ul{margin: auto;width: 1015px; display: flex;justify-content: space-around;}
+.main>ul>li:nth-child(1){list-style: none;}
+/*主题活动*/
+.main-a{}
+.main-a-div{border: solid 0.5px silver;border-radius: 20px;background: #fff;}
+.main-a>div>div{width: 260px;background: #33a3df;padding-bottom: 10px;}
+.main-a>div>div>div{width:42px ;height: 42px; background: url(../img/新闻动态/fsE.png)no-repeat;background-size: 100% 100%;float: left;margin-left: 36px;margin-top: 10px;}
+.main-a>div>div>span{line-height: 50px;font-size: 25px;color: #fff;margin-left: 20px;}
+.main-a>div>ul>li{list-style: none;}
+
+.main-a>div>ul>li>div{width: 266px;height: 46px;background: url(../img/新闻动态/chnal_ho.png)no-repeat;background-size: 100% 100%;margin-top:10px ;}
+.main-a>div>ul>li>div>span{line-height: 40px;font-size: 15px;color: #fff;margin-left: 36px;}
+.main-a>div>ul>li:nth-child(1){border-bottom:dashed    1px #e0e0e0;}
+
+/*活动预约*/
+.main-a>div>ul>a{text-decoration: none;color: #333;}
+.main-a>div>ul>a>li{list-style: none;border-bottom:dashed    1px #e0e0e0;font-size: 14px;}
+.main-a>div>ul>a>li:hover{background:url(../img/新闻动态/chnal_ho.png)no-repeat 0px 8px;color: #fff;}
+.main-a>div>ul>a>li>span{margin-left:36px ;font-size: 15px;line-height: 56px;}
+.main-a>div>ul>a>li>div{width: 20px;height: 20px;background: url(../img/新闻动态/chnal_ac.png)no-repeat -170px -12px;float: right;margin-right: 75px;margin-top: 20px;}
+/*立即预约*/
+.main-a>div>ul>li>ul>li{list-style: none;margin-top:10px ;}
+.main-a>div>ul>li>ul>li:nth-child(1){margin-top: 25px;}
+.main-a>div>ul>li>ul>li>div{width: 230px;height: 60px;background: url(../img/新闻动态/free_onlimg.png)no-repeat;}
+.main-a>div>ul>li>ul>li>input{width:210px ;height:23px ;margin-left:8px ;border: 0px;outline: none;}
+.main-a>div>ul>li>ul>li:nth-child(4) select{margin-left:8px ;width:214px ;height:23px ;border: 0px;outline: none;color: #666666;}
+.main-a>div>ul>li>ul>li>p{margin-left:8px ;margin-bottom:15px ;font-size: 12px;margin-top: 15px;}
+.main-a>div>ul>li>ul>li:nth-child(5) select:nth-child(2){color: #666666;margin: ;border: 0px;outline: none;}
+.main-a>div>ul>li>ul>li:nth-child(5) select{color: #666666;width:65px ;margin-left:5px ;height:23px ;border: 0px;outline: none;}
+.main-a>div>ul>li>ul>li:nth-child(6){text-align: center;margin-top:70px ;padding-bottom: 5px;}
+.main-a>div>ul>li>ul>li:nth-child(6) a{color: #333;font-size: 15px;}
+.main-a>div>ul>li>ul>li:nth-child(6) a:hover{color:#F29000 ;}
+.ul-li-3{background: #D4F2FF;width:231px ;margin-left:10px;margin-bottom:10px ;border-radius: 10px;}
+/*查询框*/
+.main-div{border: solid 1px #008CD7; margin-top: 40px;width:265px ;height: 25px;border-radius: 30px;}
+.main-div>span{font-size: 12px;margin-left: 10px;color: #848484;line-height: 25px;}
+.main-div>input:nth-child(2){width: 140px;border: none;outline: none;}
+.main-div>input:nth-child(3){height: 13px;width: 20px;outline: none;background: url(../img/主题活动/ssssfxe.png)no-repeat 0px 0px;border: none;}
+/*顶部*/
+.main li{list-style: none;}
+.main>ul>li:nth-child(2){width: 730px;list-style: none;margin-left:20px ;border: solid 2px #E5E3E3;border-top: solid 0px #C0C0C0;border-radius: 0px 0px 30px 30px;padding-bottom: 60px;}
+.main-b{background: #fff;}
+.main-1b>ul{display: flex;justify-content:space-between;}
+.main-1b>ul>li>div{float: left;}
+.main-1b>ul>li>div>span{color: #149add;font-size: 47px;line-height: 74px;margin-left:20px ;}
+.main-1b>ul>li>div>h4{color: #149add;margin-top: 16px;margin-left: 15px;font-size: 18px;}
+.main-1b>ul>li>div>p{color: #149add;font-size: 13px;margin-top: 3px;margin-left: 15px;}
+.main-1b>ul>li:nth-child(2) {line-height: 76px;color: #333;font-size: 14px;}
+.main-1b>ul>li:nth-child(2) a{color: #333;text-decoration: none;}
+.main-1b>ul>li:nth-child(2) a:nth-child(6){margin-right:25px ;}
+.main-1b>ul>li>a:hover{color: #F29000;}
+/*实线*/
+.main-2b>div{width: 687px;border: solid 1px #e0e0e0;margin-left:25px;}
+.main-3b{width:695px ;margin: auto;font-size: 13px;color: #666666;line-height: 25px;}
+.main-3b>p:nth-child(1){margin-top:30px ;}
+.main-3b>p:nth-child(2){line-height: 20px;margin-top: 5px;}
+.main-3b>p:nth-child(3){margin-top:30px ;}
+.main-3b>p:nth-child(4){margin-top:30px ;}
+.main-3b>p:nth-child(5){margin-top:30px ;}
+.main-3b>p:nth-child(6){margin-top:30px ;}
+.main-3b>p:nth-child(7){margin-top:30px ;}
+.main-3b>p:nth-child(1){margin-top:30px ;}
+
+
+
+
